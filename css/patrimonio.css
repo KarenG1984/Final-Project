@@ -165,22 +165,8 @@ header hr {
   display: flex;
   justify-content: center;
 }
+
 /* Slider */
-.slider-items .slider-item:nth-child(1) {
-  background-image: url("/assets/img/Slider.jpg");
-}
-.slider-items .slider-item:nth-child(2) {
-  background-image: url("/assets/img/Slider_1.jpg");
-}
-.slider-items .slider-item:nth-child(3) {
-  background-image: url("/assets/img/Slider_2.jpg");
-}
-.slider-items .slider-item:nth-child(4) {
-  background-image: url("/assets/img/Slider_3.jpg");
-}
-.slider-items .slider-item:nth-child(5) {
-  background-image: url("/assets/img/Slider_4.jpg");
-}
 .slider-container {
   margin: 20px auto;
   overflow: hidden;
@@ -202,7 +188,25 @@ header hr {
   justify-content: start;
   align-items: baseline;
 }
-
+/* .slider-items .slider-item img {
+  width: 100%;
+  height: auto;
+} */
+.slider-items .slider-item:nth-child(1) {
+  background-image: url("/assets/img/Slider.jpg");
+}
+.slider-items .slider-item:nth-child(2) {
+  background-image: url("/assets/img/Slider_1.jpg");
+}
+.slider-items .slider-item:nth-child(3) {
+  background-image: url("/assets/img/Slider_2.jpg");
+}
+.slider-items .slider-item:nth-child(4) {
+  background-image: url("/assets/img/Slider_3.jpg");
+}
+.slider-items .slider-item:nth-child(5) {
+  background-image: url("/assets/img/Slider_4.jpg");
+}
 .slider-items .slider-item span {
   background-color: rgba(34, 58, 64, 0.4);
   font-size: 2.2rem;
@@ -244,7 +248,6 @@ a:active {
   font-size: 2.4rem;
   line-height: 25px;
 }
-
 .card_content {
   margin-top: 20px;
   margin-bottom: 20px;
@@ -288,7 +291,6 @@ a:active {
   transform: translateY(100%) translateY(-88px) translateZ(0);
   transition: transform 0.5s ease-out;
 }
-
 .info:before {
   z-index: -1;
   display: block;
@@ -303,12 +305,10 @@ a:active {
   transform: translateY(-100%) translateY(88px) translateZ(0);
   transition: transform 0.5s ease-out;
 }
-
 .card:hover .info,
 .card:hover .info:before {
   transform: translateY(0) translateZ(0);
 }
-
 .title {
   margin: 0;
   padding: 24px;
@@ -316,7 +316,6 @@ a:active {
   line-height: 1;
   color: rgba(0, 0, 0, 0.87);
 }
-
 .description {
   margin: 0;
   padding: 0 25px 25px;
@@ -325,7 +324,6 @@ a:active {
   line-height: 1.5;
   color: var(--dark-blue);
 }
-
 /* /Card Content */
 
 /* Footer */
@@ -466,7 +464,7 @@ footer hr {
       "content content"
       "footer footer";
   }
-  .navbar a {
+  .navigation__menu-list a {
     padding: 5px;
   }
   .about__info {

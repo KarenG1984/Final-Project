@@ -366,7 +366,7 @@ footer hr {
       "contact contact"
       "footer footer";
   }
-  .navbar a {
+  .navigation__menu-list a {
     padding: 5px;
   }
   .about__info {

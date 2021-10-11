@@ -420,7 +420,7 @@ footer hr {
   header {
     width: 100%;
   }
-  .navbar a {
+  .navigation__menu-list a {
     padding: 5px;
   }
   .main__content {
